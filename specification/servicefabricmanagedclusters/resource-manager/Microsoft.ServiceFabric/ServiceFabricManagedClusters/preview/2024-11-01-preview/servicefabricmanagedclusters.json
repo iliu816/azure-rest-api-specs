@@ -1832,7 +1832,7 @@
     },
     "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ServiceFabric/managedClusters/{clusterName}/applications/{applicationName}/fetchUpgradeStatus": {
       "post": {
-        "operationId": "Applications_ReadUpgrade",
+        "operationId": "Applications_FetchUpgradeStatus",
         "tags": [
           "Applications"
         ],

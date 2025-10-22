@@ -85,8 +85,7 @@ interface Applications {
   /**
    * Get the status of the latest application upgrade. It will query the cluster to find the status of the latest application upgrade.
    */
-  @action("fetchUpgradeStatus")
-  readUpgrade is ArmResourceActionAsync<
+  fetchUpgradeStatus is ArmResourceActionAsync<
     ApplicationResource,
     void,
     never,
